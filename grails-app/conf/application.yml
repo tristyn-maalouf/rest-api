@@ -23,14 +23,14 @@ environments:
         church:
             contentful:
                 read:
-                    apiURL: https://cdn.contentful.com/spaces/xxxxxxxxxxxx
-                    apiKey: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                    apiURL: https://cdn.contentful.com/spaces/ah8faf95sd0o
+                    apiKey: e96874b6fcfb7a57367ada6e62ed9565fd5be3588f073d3a429c51fee23b7ea4
                 write:
-                    apiURL: https://api.contentful.com/spaces/xxxxxxxxxxxx
+                    apiURL: https://api.contentful.com/spaces/ah8faf95sd0o
                     # this key is an OAuth key for using the Content Management API
                     # obtain the key here: https://www.contentful.com/developers/docs/references/authentication/#the-management-api
                     # we may need to store the church's username and password, rather than the token.
-                    apiKey: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                    apiKey: CFPAT-16eb4e5ad78710ecc97d0d9af695d35969a1c0f06f32286bb
             appName: "ChurchConnect"
             appURL: "http://localhost:9000"
             liveStreamLinkId: "4DCKfXk6W4IakA42AyUyGy"
@@ -50,15 +50,15 @@ environments:
         church:
             contentful:
                 read:
-                    apiURL: https://cdn.contentful.com/spaces/xxxxxxxxxxxx
-                    apiKey: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                    apiURL: https://cdn.contentful.com/spaces/ah8faf95sd0o
+                    apiKey: e96874b6fcfb7a57367ada6e62ed9565fd5be3588f073d3a429c51fee23b7ea4
                 write:
-                    apiURL: https://api.contentful.com/spaces/xxxxxxxxxxxx
+                    apiURL: https://api.contentful.com/spaces/ah8faf95sd0o
                     # this key is an OAuth key for using the Content Management API with Sharptop's Contentful acccount.
                     # we will need a service account and OAuth key for each church.
                     # obtain the key here: https://www.contentful.com/developers/docs/references/authentication/#the-management-api
                     # we may need to store the church's username and password, rather than the token.
-                    apiKey: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                    apiKey: CFPAT-16eb4e5ad78710ecc97d0d9af695d35969a1c0f06f32286bb
             appName: "ChurchConnect"
             appURL: "http://localhost:9000"
             liveStreamLinkId: "4DCKfXk6W4IakA42AyUyGy"

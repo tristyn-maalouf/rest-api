@@ -31,7 +31,7 @@ class FeedService {
         new Feed(
             bannerImages: contentfulService.fetchBannerImages(),
             events: eventService.getAllEvents(),
-            givingURL: "https://pushpay.com/p/thomasroadbaptistchurch",
+            givingURL: "http://www.firstroanoke.com/give/",
             liveStreamLink: contentfulService.fetchLink(liveStreamLinkId),
             postGroups: contentfulService.fetchPostGroups(),
             hasMinistryGroups: false, // contentfulService.fetchMinistryGroups(),
